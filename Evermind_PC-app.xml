@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<application xmlns="http://ns.adobe.com/air/application/3.5">
+    <id>com.shipnk.evermind</id>
+    <versionNumber>1.0</versionNumber>
+    <filename>Evermind</filename>
+    <description></description>
+    <!-- To localize the description, use the following format for the description element.<description><text xml:lang="en">English App description goes here</text><text xml:lang="fr">French App description goes here</text><text xml:lang="ja">Japanese App description goes here</text></description>-->
+    <name>Evermind</name>
+    <!-- To localize the name, use the following format for the name element.<name><text xml:lang="en">English App name goes here</text><text xml:lang="fr">French App name goes here</text><text xml:lang="ja">Japanese App name goes here</text></name>-->
+    <copyright></copyright>
+    <initialWindow>
+        <content>Evermind_PC.swf</content>
+        <systemChrome>none</systemChrome>
+        <transparent>true</transparent>
+        <visible>true</visible>
+        <fullScreen>false</fullScreen>
+        <aspectRatio>portrait</aspectRatio>
+        <renderMode>auto</renderMode>
+        <maximizable>true</maximizable>
+        <minimizable>true</minimizable>
+        <resizable>true</resizable>
+        <minSize>400 350</minSize>
+    </initialWindow>
+    <icon>
+        <image16x16>icon/icon16.png</image16x16>
+        <image32x32>icon/icon32.png</image32x32>
+        <image48x48>icon/icon48.png</image48x48>
+        <image128x128>icon/icon128.png</image128x128>
+    </icon>
+    <customUpdateUI>false</customUpdateUI>
+    <allowBrowserInvocation>false</allowBrowserInvocation>
+    <fileTypes>
+        <fileType>
+            <name>Evermind</name>
+            <extension>emd</extension>
+            <description>Mindmap File Format</description>
+            <contentType>text/xml</contentType>
+            <icon>
+                <image128x128>icon/logoDesign.png</image128x128>
+                <image48x48>icon/logoDesign48.png</image48x48>
+                <image32x32>icon/logoDesign32.png</image32x32>
+                <image16x16>icon/logoDesign16.png</image16x16>
+            </icon>
+        </fileType>
+    </fileTypes>
+</application>
